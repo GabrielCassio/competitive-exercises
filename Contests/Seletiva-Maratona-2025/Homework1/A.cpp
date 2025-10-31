@@ -20,9 +20,14 @@ int main(){
     
     int q; cin >> q;
     for (int i = 0; i < q; i++){
-        int l,r; cin >> l >> r;
-        cout << psum[r + 1] - psum[l] << endl;
+        int l, r; cin >> l >> r;
+        auto start = lower_bound(coordinates.begin(), coordinates.end(), l);
+        auto end = upper_bound(coordinates.begin(), coordinates.end(), r);
+        l = distance(coordinates.begin(), start);
+        r = distance(coordinates.begin(), end);
+        cout << psum[r] - psum[l] << endl;
     }
+    
 
     return 0;
 }
