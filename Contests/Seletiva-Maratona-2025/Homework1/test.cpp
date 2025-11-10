@@ -9,6 +9,9 @@ int main(){
     ios::sync_with_stdio(false); 
     cin.tie(0); 
 
+    int i = 0;
+    cout << !i;
+
 
     return 0;
 }

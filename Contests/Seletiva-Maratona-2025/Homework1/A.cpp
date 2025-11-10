@@ -28,6 +28,5 @@ int main(){
         cout << psum[r] - psum[l] << endl;
     }
     
-
     return 0;
 }
