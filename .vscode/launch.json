@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        { // FOR WINDOWS
+        "name": "(gdb) Launch Windows", // <-- O nome que aparecerá no menu de debug
+        "type": "cppdbg",
+        "request": "launch",
+        // 3. QUAL PROGRAMA DEPURAR:
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        // 4. A LINHA MAIS IMPORTANTE: ONDE ESTÁ O GDB
+        "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ],
+        // 5. CONECTA O BUILD AO DEBUG:
+        // O nome aqui deve ser o MESMO do "label" no tasks.json
+        "preLaunchTask": "C/C++: g++.exe build active file"
+        },
+        { // FOR LINUX 
+        "name": "(gdb) Launch Linux", // <-- O nome que aparecerá no menu de debug
+        "type": "cppdbg",
+        "request": "launch",
+        // 3. QUAL PROGRAMA DEPURAR:
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        // 4. A LINHA MAIS IMPORTANTE: ONDE ESTÁ O GDB
+        "miDebuggerPath": "gdb",
+        "setupCommands": [
+            {
+                "description": "Enable pretty-printing for gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ],
+        // 5. CONECTA O BUILD AO DEBUG:
+        // O nome aqui deve ser o MESMO do "label" no tasks.json
+        "preLaunchTask": "C/C++: g++ build active file"
+        }
+    ]
+}
