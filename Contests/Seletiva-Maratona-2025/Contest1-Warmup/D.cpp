@@ -16,7 +16,6 @@ int main(){
         int aX, aY; cin >> aX >> aX;
         int bX, bY; cin >> bX >> bY;
 
-
     }
 
     return 0;
