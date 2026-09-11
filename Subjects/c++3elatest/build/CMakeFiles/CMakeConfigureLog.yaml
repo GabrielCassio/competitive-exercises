@@ -1,0 +1,2513 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Users/notus/bin/ninja-build.com"
+      - "C:/Users/notus/bin/ninja-build.exe"
+      - "C:/Users/notus/bin/ninja-build"
+      - "C:/Users/notus/bin/ninja.com"
+      - "C:/Users/notus/bin/ninja.exe"
+      - "C:/Users/notus/bin/ninja"
+      - "C:/Users/notus/bin/samu.com"
+      - "C:/Users/notus/bin/samu.exe"
+      - "C:/Users/notus/bin/samu"
+      - "C:/Program Files/Git/mingw64/bin/ninja-build.com"
+      - "C:/Program Files/Git/mingw64/bin/ninja-build.exe"
+      - "C:/Program Files/Git/mingw64/bin/ninja-build"
+      - "C:/Program Files/Git/mingw64/bin/ninja.com"
+      - "C:/Program Files/Git/mingw64/bin/ninja.exe"
+      - "C:/Program Files/Git/mingw64/bin/ninja"
+      - "C:/Program Files/Git/mingw64/bin/samu.com"
+      - "C:/Program Files/Git/mingw64/bin/samu.exe"
+      - "C:/Program Files/Git/mingw64/bin/samu"
+      - "C:/Program Files/Git/usr/local/bin/ninja-build.com"
+      - "C:/Program Files/Git/usr/local/bin/ninja-build.exe"
+      - "C:/Program Files/Git/usr/local/bin/ninja-build"
+      - "C:/Program Files/Git/usr/local/bin/ninja.com"
+      - "C:/Program Files/Git/usr/local/bin/ninja.exe"
+      - "C:/Program Files/Git/usr/local/bin/ninja"
+      - "C:/Program Files/Git/usr/local/bin/samu.com"
+      - "C:/Program Files/Git/usr/local/bin/samu.exe"
+      - "C:/Program Files/Git/usr/local/bin/samu"
+      - "C:/Program Files/Git/usr/bin/ninja-build.com"
+      - "C:/Program Files/Git/usr/bin/ninja-build.exe"
+      - "C:/Program Files/Git/usr/bin/ninja-build"
+      - "C:/Program Files/Git/usr/bin/ninja.com"
+      - "C:/Program Files/Git/usr/bin/ninja.exe"
+      - "C:/Program Files/Git/usr/bin/ninja"
+      - "C:/Program Files/Git/usr/bin/samu.com"
+      - "C:/Program Files/Git/usr/bin/samu.exe"
+      - "C:/Program Files/Git/usr/bin/samu"
+      - "C:/msys64/ucrt64/bin/ninja-build.com"
+      - "C:/msys64/ucrt64/bin/ninja-build.exe"
+      - "C:/msys64/ucrt64/bin/ninja-build"
+      - "C:/msys64/ucrt64/bin/ninja.com"
+    found: "C:/msys64/ucrt64/bin/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang"
+    candidate_directories:
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Users/notus/bin/clang.com"
+      - "C:/Users/notus/bin/clang.exe"
+      - "C:/Users/notus/bin/clang"
+      - "C:/Program Files/Git/mingw64/bin/clang.com"
+      - "C:/Program Files/Git/mingw64/bin/clang.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang"
+      - "C:/Program Files/Git/usr/local/bin/clang.com"
+      - "C:/Program Files/Git/usr/local/bin/clang.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang"
+      - "C:/Program Files/Git/usr/bin/clang.com"
+      - "C:/Program Files/Git/usr/bin/clang.exe"
+      - "C:/Program Files/Git/usr/bin/clang"
+      - "C:/msys64/ucrt64/bin/clang.com"
+    found: "C:/msys64/ucrt64/bin/clang.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/4.2.1/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-ar.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar"
+      - "C:/Users/notus/bin/llvm-ar.com"
+      - "C:/Users/notus/bin/llvm-ar.exe"
+      - "C:/Users/notus/bin/llvm-ar"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar"
+      - "C:/msys64/usr/bin/llvm-ar.com"
+      - "C:/msys64/usr/bin/llvm-ar.exe"
+      - "C:/msys64/usr/bin/llvm-ar"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar"
+      - "C:/msys64/ucrt64/bin/ar.com"
+    found: "C:/msys64/ucrt64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-ranlib.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib"
+      - "C:/Users/notus/bin/llvm-ranlib.com"
+      - "C:/Users/notus/bin/llvm-ranlib.exe"
+      - "C:/Users/notus/bin/llvm-ranlib"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib"
+      - "C:/msys64/usr/bin/llvm-ranlib.com"
+      - "C:/msys64/usr/bin/llvm-ranlib.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib"
+      - "C:/msys64/ucrt64/bin/ranlib.com"
+    found: "C:/msys64/ucrt64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-strip.com"
+      - "C:/msys64/ucrt64/bin/llvm-strip.exe"
+      - "C:/msys64/ucrt64/bin/llvm-strip"
+      - "C:/Users/notus/bin/llvm-strip.com"
+      - "C:/Users/notus/bin/llvm-strip.exe"
+      - "C:/Users/notus/bin/llvm-strip"
+      - "C:/Program Files/Git/mingw64/bin/llvm-strip.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-strip.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-strip"
+      - "C:/Program Files/Git/usr/local/bin/llvm-strip.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-strip.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-strip"
+      - "C:/Program Files/Git/usr/bin/llvm-strip.com"
+      - "C:/Program Files/Git/usr/bin/llvm-strip.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-strip"
+      - "C:/msys64/usr/bin/llvm-strip.com"
+      - "C:/msys64/usr/bin/llvm-strip.exe"
+      - "C:/msys64/usr/bin/llvm-strip"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-strip.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-strip.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-strip"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-strip.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-strip.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-strip"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-strip.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-strip.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-strip"
+      - "C:/msys64/ucrt64/bin/strip.com"
+    found: "C:/msys64/ucrt64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ld.lld.com"
+      - "C:/msys64/ucrt64/bin/ld.lld.exe"
+      - "C:/msys64/ucrt64/bin/ld.lld"
+      - "C:/Users/notus/bin/ld.lld.com"
+      - "C:/Users/notus/bin/ld.lld.exe"
+      - "C:/Users/notus/bin/ld.lld"
+      - "C:/Program Files/Git/mingw64/bin/ld.lld.com"
+      - "C:/Program Files/Git/mingw64/bin/ld.lld.exe"
+      - "C:/Program Files/Git/mingw64/bin/ld.lld"
+      - "C:/Program Files/Git/usr/local/bin/ld.lld.com"
+      - "C:/Program Files/Git/usr/local/bin/ld.lld.exe"
+      - "C:/Program Files/Git/usr/local/bin/ld.lld"
+      - "C:/Program Files/Git/usr/bin/ld.lld.com"
+      - "C:/Program Files/Git/usr/bin/ld.lld.exe"
+      - "C:/Program Files/Git/usr/bin/ld.lld"
+      - "C:/msys64/usr/bin/ld.lld.com"
+      - "C:/msys64/usr/bin/ld.lld.exe"
+      - "C:/msys64/usr/bin/ld.lld"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/ld.lld.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/ld.lld.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/ld.lld"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/ld.lld.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/ld.lld.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/ld.lld"
+      - "C:/Program Files/Git/usr/bin/core_perl/ld.lld.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/ld.lld.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/ld.lld"
+      - "C:/msys64/ucrt64/bin/ld.com"
+    found: "C:/msys64/ucrt64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-nm.com"
+      - "C:/msys64/ucrt64/bin/llvm-nm.exe"
+      - "C:/msys64/ucrt64/bin/llvm-nm"
+      - "C:/Users/notus/bin/llvm-nm.com"
+      - "C:/Users/notus/bin/llvm-nm.exe"
+      - "C:/Users/notus/bin/llvm-nm"
+      - "C:/Program Files/Git/mingw64/bin/llvm-nm.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-nm.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-nm"
+      - "C:/Program Files/Git/usr/local/bin/llvm-nm.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-nm.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-nm"
+      - "C:/Program Files/Git/usr/bin/llvm-nm.com"
+      - "C:/Program Files/Git/usr/bin/llvm-nm.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-nm"
+      - "C:/msys64/usr/bin/llvm-nm.com"
+      - "C:/msys64/usr/bin/llvm-nm.exe"
+      - "C:/msys64/usr/bin/llvm-nm"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-nm.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-nm.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-nm"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-nm.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-nm.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-nm"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-nm.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-nm.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-nm"
+      - "C:/msys64/ucrt64/bin/nm.com"
+    found: "C:/msys64/ucrt64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-objdump.com"
+      - "C:/msys64/ucrt64/bin/llvm-objdump.exe"
+      - "C:/msys64/ucrt64/bin/llvm-objdump"
+      - "C:/Users/notus/bin/llvm-objdump.com"
+      - "C:/Users/notus/bin/llvm-objdump.exe"
+      - "C:/Users/notus/bin/llvm-objdump"
+      - "C:/Program Files/Git/mingw64/bin/llvm-objdump.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-objdump.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-objdump"
+      - "C:/Program Files/Git/usr/local/bin/llvm-objdump.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-objdump.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-objdump"
+      - "C:/Program Files/Git/usr/bin/llvm-objdump.com"
+      - "C:/Program Files/Git/usr/bin/llvm-objdump.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-objdump"
+      - "C:/msys64/usr/bin/llvm-objdump.com"
+      - "C:/msys64/usr/bin/llvm-objdump.exe"
+      - "C:/msys64/usr/bin/llvm-objdump"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-objdump.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-objdump.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-objdump"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-objdump.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-objdump.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-objdump"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-objdump.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-objdump.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-objdump"
+      - "C:/msys64/ucrt64/bin/objdump.com"
+    found: "C:/msys64/ucrt64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-objcopy.com"
+      - "C:/msys64/ucrt64/bin/llvm-objcopy.exe"
+      - "C:/msys64/ucrt64/bin/llvm-objcopy"
+      - "C:/Users/notus/bin/llvm-objcopy.com"
+      - "C:/Users/notus/bin/llvm-objcopy.exe"
+      - "C:/Users/notus/bin/llvm-objcopy"
+      - "C:/Program Files/Git/mingw64/bin/llvm-objcopy.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-objcopy.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-objcopy"
+      - "C:/Program Files/Git/usr/local/bin/llvm-objcopy.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-objcopy.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-objcopy"
+      - "C:/Program Files/Git/usr/bin/llvm-objcopy.com"
+      - "C:/Program Files/Git/usr/bin/llvm-objcopy.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-objcopy"
+      - "C:/msys64/usr/bin/llvm-objcopy.com"
+      - "C:/msys64/usr/bin/llvm-objcopy.exe"
+      - "C:/msys64/usr/bin/llvm-objcopy"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-objcopy.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-objcopy.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-objcopy"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-objcopy.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-objcopy.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-objcopy"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-objcopy.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-objcopy.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-objcopy"
+      - "C:/msys64/ucrt64/bin/objcopy.com"
+    found: "C:/msys64/ucrt64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-readelf.com"
+      - "C:/msys64/ucrt64/bin/llvm-readelf.exe"
+      - "C:/msys64/ucrt64/bin/llvm-readelf"
+      - "C:/Users/notus/bin/llvm-readelf.com"
+      - "C:/Users/notus/bin/llvm-readelf.exe"
+      - "C:/Users/notus/bin/llvm-readelf"
+      - "C:/Program Files/Git/mingw64/bin/llvm-readelf.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-readelf.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-readelf"
+      - "C:/Program Files/Git/usr/local/bin/llvm-readelf.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-readelf.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-readelf"
+      - "C:/Program Files/Git/usr/bin/llvm-readelf.com"
+      - "C:/Program Files/Git/usr/bin/llvm-readelf.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-readelf"
+      - "C:/msys64/usr/bin/llvm-readelf.com"
+      - "C:/msys64/usr/bin/llvm-readelf.exe"
+      - "C:/msys64/usr/bin/llvm-readelf"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-readelf.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-readelf.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-readelf"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-readelf.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-readelf.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-readelf"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-readelf.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-readelf.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-readelf"
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-dlltool.com"
+      - "C:/msys64/ucrt64/bin/llvm-dlltool.exe"
+      - "C:/msys64/ucrt64/bin/llvm-dlltool"
+      - "C:/Users/notus/bin/llvm-dlltool.com"
+      - "C:/Users/notus/bin/llvm-dlltool.exe"
+      - "C:/Users/notus/bin/llvm-dlltool"
+      - "C:/Program Files/Git/mingw64/bin/llvm-dlltool.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-dlltool.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-dlltool"
+      - "C:/Program Files/Git/usr/local/bin/llvm-dlltool.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-dlltool.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-dlltool"
+      - "C:/Program Files/Git/usr/bin/llvm-dlltool.com"
+      - "C:/Program Files/Git/usr/bin/llvm-dlltool.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-dlltool"
+      - "C:/msys64/usr/bin/llvm-dlltool.com"
+      - "C:/msys64/usr/bin/llvm-dlltool.exe"
+      - "C:/msys64/usr/bin/llvm-dlltool"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-dlltool.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-dlltool.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-dlltool"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-dlltool.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-dlltool.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-dlltool"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-dlltool.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-dlltool.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-dlltool"
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-addr2line.com"
+      - "C:/msys64/ucrt64/bin/llvm-addr2line.exe"
+      - "C:/msys64/ucrt64/bin/llvm-addr2line"
+      - "C:/Users/notus/bin/llvm-addr2line.com"
+      - "C:/Users/notus/bin/llvm-addr2line.exe"
+      - "C:/Users/notus/bin/llvm-addr2line"
+      - "C:/Program Files/Git/mingw64/bin/llvm-addr2line.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-addr2line.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-addr2line"
+      - "C:/Program Files/Git/usr/local/bin/llvm-addr2line.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-addr2line.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-addr2line"
+      - "C:/Program Files/Git/usr/bin/llvm-addr2line.com"
+      - "C:/Program Files/Git/usr/bin/llvm-addr2line.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-addr2line"
+      - "C:/msys64/usr/bin/llvm-addr2line.com"
+      - "C:/msys64/usr/bin/llvm-addr2line.exe"
+      - "C:/msys64/usr/bin/llvm-addr2line"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-addr2line.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-addr2line.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-addr2line"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-addr2line.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-addr2line.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-addr2line"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-addr2line.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-addr2line.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-addr2line"
+      - "C:/msys64/ucrt64/bin/addr2line.com"
+    found: "C:/msys64/ucrt64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Users/notus/bin/tapi.com"
+      - "C:/Users/notus/bin/tapi.exe"
+      - "C:/Users/notus/bin/tapi"
+      - "C:/Program Files/Git/mingw64/bin/tapi.com"
+      - "C:/Program Files/Git/mingw64/bin/tapi.exe"
+      - "C:/Program Files/Git/mingw64/bin/tapi"
+      - "C:/Program Files/Git/usr/local/bin/tapi.com"
+      - "C:/Program Files/Git/usr/local/bin/tapi.exe"
+      - "C:/Program Files/Git/usr/local/bin/tapi"
+      - "C:/Program Files/Git/usr/bin/tapi.com"
+      - "C:/Program Files/Git/usr/bin/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/tapi"
+      - "C:/msys64/usr/bin/tapi.com"
+      - "C:/msys64/usr/bin/tapi.exe"
+      - "C:/msys64/usr/bin/tapi"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/tapi.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/tapi.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/tapi"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/tapi"
+      - "C:/Program Files/Git/usr/bin/core_perl/tapi.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/tapi.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.1.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.1.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.1"
+      - "C:/Users/notus/bin/llvm-ar-21.1.com"
+      - "C:/Users/notus/bin/llvm-ar-21.1.exe"
+      - "C:/Users/notus/bin/llvm-ar-21.1"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.1"
+      - "C:/msys64/usr/bin/llvm-ar-21.1.com"
+      - "C:/msys64/usr/bin/llvm-ar-21.1.exe"
+      - "C:/msys64/usr/bin/llvm-ar-21.1"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.1.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.1.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.1"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21"
+      - "C:/Users/notus/bin/llvm-ar-21.com"
+      - "C:/Users/notus/bin/llvm-ar-21.exe"
+      - "C:/Users/notus/bin/llvm-ar-21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21"
+      - "C:/msys64/usr/bin/llvm-ar-21.com"
+      - "C:/msys64/usr/bin/llvm-ar-21.exe"
+      - "C:/msys64/usr/bin/llvm-ar-21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21"
+      - "C:/msys64/ucrt64/bin/llvm-ar21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar21"
+      - "C:/Users/notus/bin/llvm-ar21.com"
+      - "C:/Users/notus/bin/llvm-ar21.exe"
+      - "C:/Users/notus/bin/llvm-ar21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar21"
+      - "C:/Program Files/Git/usr/bin/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar21"
+      - "C:/msys64/usr/bin/llvm-ar21.com"
+      - "C:/msys64/usr/bin/llvm-ar21.exe"
+      - "C:/msys64/usr/bin/llvm-ar21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar21"
+      - "C:/msys64/ucrt64/bin/llvm-ar.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar"
+      - "C:/Users/notus/bin/llvm-ar.com"
+      - "C:/Users/notus/bin/llvm-ar.exe"
+      - "C:/Users/notus/bin/llvm-ar"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar"
+      - "C:/msys64/usr/bin/llvm-ar.com"
+      - "C:/msys64/usr/bin/llvm-ar.exe"
+      - "C:/msys64/usr/bin/llvm-ar"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.1.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.1.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.1"
+      - "C:/Users/notus/bin/llvm-ranlib-21.1.com"
+      - "C:/Users/notus/bin/llvm-ranlib-21.1.exe"
+      - "C:/Users/notus/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.1"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.1.com"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.1.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.1"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.1.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.1.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.1"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21"
+      - "C:/Users/notus/bin/llvm-ranlib-21.com"
+      - "C:/Users/notus/bin/llvm-ranlib-21.exe"
+      - "C:/Users/notus/bin/llvm-ranlib-21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.com"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib-21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib21"
+      - "C:/Users/notus/bin/llvm-ranlib21.com"
+      - "C:/Users/notus/bin/llvm-ranlib21.exe"
+      - "C:/Users/notus/bin/llvm-ranlib21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib21"
+      - "C:/msys64/usr/bin/llvm-ranlib21.com"
+      - "C:/msys64/usr/bin/llvm-ranlib21.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib21"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib"
+      - "C:/Users/notus/bin/llvm-ranlib.com"
+      - "C:/Users/notus/bin/llvm-ranlib.exe"
+      - "C:/Users/notus/bin/llvm-ranlib"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib"
+      - "C:/msys64/usr/bin/llvm-ranlib.com"
+      - "C:/msys64/usr/bin/llvm-ranlib.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.1.com"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.1.exe"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.1"
+      - "C:/Users/notus/bin/clang-scan-deps-21.1.com"
+      - "C:/Users/notus/bin/clang-scan-deps-21.1.exe"
+      - "C:/Users/notus/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.1"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.1.com"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.1.exe"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.1"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.1.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.1.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.1"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.com"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.exe"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21"
+      - "C:/Users/notus/bin/clang-scan-deps-21.com"
+      - "C:/Users/notus/bin/clang-scan-deps-21.exe"
+      - "C:/Users/notus/bin/clang-scan-deps-21"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.com"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.exe"
+      - "C:/msys64/usr/bin/clang-scan-deps-21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps21.com"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps21.exe"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps21"
+      - "C:/Users/notus/bin/clang-scan-deps21.com"
+      - "C:/Users/notus/bin/clang-scan-deps21.exe"
+      - "C:/Users/notus/bin/clang-scan-deps21"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps21"
+      - "C:/msys64/usr/bin/clang-scan-deps21.com"
+      - "C:/msys64/usr/bin/clang-scan-deps21.exe"
+      - "C:/msys64/usr/bin/clang-scan-deps21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps21"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps.com"
+    found: "C:/msys64/ucrt64/bin/clang-scan-deps.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang++"
+    candidate_directories:
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Users/notus/bin/clang++.com"
+      - "C:/Users/notus/bin/clang++.exe"
+      - "C:/Users/notus/bin/clang++"
+      - "C:/Program Files/Git/mingw64/bin/clang++.com"
+      - "C:/Program Files/Git/mingw64/bin/clang++.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang++"
+      - "C:/Program Files/Git/usr/local/bin/clang++.com"
+      - "C:/Program Files/Git/usr/local/bin/clang++.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang++"
+      - "C:/Program Files/Git/usr/bin/clang++.com"
+      - "C:/Program Files/Git/usr/bin/clang++.exe"
+      - "C:/Program Files/Git/usr/bin/clang++"
+      - "C:/msys64/ucrt64/bin/clang++.com"
+    found: "C:/msys64/ucrt64/bin/clang++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/4.2.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.1.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.1.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.1"
+      - "C:/Users/notus/bin/llvm-ar-21.1.com"
+      - "C:/Users/notus/bin/llvm-ar-21.1.exe"
+      - "C:/Users/notus/bin/llvm-ar-21.1"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.1"
+      - "C:/msys64/usr/bin/llvm-ar-21.1.com"
+      - "C:/msys64/usr/bin/llvm-ar-21.1.exe"
+      - "C:/msys64/usr/bin/llvm-ar-21.1"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.1.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.1.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.1"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar-21"
+      - "C:/Users/notus/bin/llvm-ar-21.com"
+      - "C:/Users/notus/bin/llvm-ar-21.exe"
+      - "C:/Users/notus/bin/llvm-ar-21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar-21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar-21"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar-21"
+      - "C:/msys64/usr/bin/llvm-ar-21.com"
+      - "C:/msys64/usr/bin/llvm-ar-21.exe"
+      - "C:/msys64/usr/bin/llvm-ar-21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar-21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar-21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar-21"
+      - "C:/msys64/ucrt64/bin/llvm-ar21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar21"
+      - "C:/Users/notus/bin/llvm-ar21.com"
+      - "C:/Users/notus/bin/llvm-ar21.exe"
+      - "C:/Users/notus/bin/llvm-ar21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar21"
+      - "C:/Program Files/Git/usr/bin/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar21"
+      - "C:/msys64/usr/bin/llvm-ar21.com"
+      - "C:/msys64/usr/bin/llvm-ar21.exe"
+      - "C:/msys64/usr/bin/llvm-ar21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar21"
+      - "C:/msys64/ucrt64/bin/llvm-ar.com"
+      - "C:/msys64/ucrt64/bin/llvm-ar.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ar"
+      - "C:/Users/notus/bin/llvm-ar.com"
+      - "C:/Users/notus/bin/llvm-ar.exe"
+      - "C:/Users/notus/bin/llvm-ar"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ar"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ar"
+      - "C:/msys64/usr/bin/llvm-ar.com"
+      - "C:/msys64/usr/bin/llvm-ar.exe"
+      - "C:/msys64/usr/bin/llvm-ar"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ar"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.1.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.1.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.1"
+      - "C:/Users/notus/bin/llvm-ranlib-21.1.com"
+      - "C:/Users/notus/bin/llvm-ranlib-21.1.exe"
+      - "C:/Users/notus/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.1"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.1.com"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.1.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.1"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.1.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.1.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.1"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib-21"
+      - "C:/Users/notus/bin/llvm-ranlib-21.com"
+      - "C:/Users/notus/bin/llvm-ranlib-21.exe"
+      - "C:/Users/notus/bin/llvm-ranlib-21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib-21"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.com"
+      - "C:/msys64/usr/bin/llvm-ranlib-21.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib-21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib-21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib-21"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib21.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib21.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib21"
+      - "C:/Users/notus/bin/llvm-ranlib21.com"
+      - "C:/Users/notus/bin/llvm-ranlib21.exe"
+      - "C:/Users/notus/bin/llvm-ranlib21"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib21"
+      - "C:/msys64/usr/bin/llvm-ranlib21.com"
+      - "C:/msys64/usr/bin/llvm-ranlib21.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib21"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib21"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib.com"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib.exe"
+      - "C:/msys64/ucrt64/bin/llvm-ranlib"
+      - "C:/Users/notus/bin/llvm-ranlib.com"
+      - "C:/Users/notus/bin/llvm-ranlib.exe"
+      - "C:/Users/notus/bin/llvm-ranlib"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/mingw64/bin/llvm-ranlib"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/local/bin/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/llvm-ranlib"
+      - "C:/msys64/usr/bin/llvm-ranlib.com"
+      - "C:/msys64/usr/bin/llvm-ranlib.exe"
+      - "C:/msys64/usr/bin/llvm-ranlib"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/llvm-ranlib"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.1.com"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.1.exe"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.1"
+      - "C:/Users/notus/bin/clang-scan-deps-21.1.com"
+      - "C:/Users/notus/bin/clang-scan-deps-21.1.exe"
+      - "C:/Users/notus/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.1"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.1.com"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.1.exe"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.1"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.1.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.1.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.1"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.1.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.1.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.1"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.com"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21.exe"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps-21"
+      - "C:/Users/notus/bin/clang-scan-deps-21.com"
+      - "C:/Users/notus/bin/clang-scan-deps-21.exe"
+      - "C:/Users/notus/bin/clang-scan-deps-21"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps-21"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.com"
+      - "C:/msys64/usr/bin/clang-scan-deps-21.exe"
+      - "C:/msys64/usr/bin/clang-scan-deps-21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps-21"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps-21"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps21.com"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps21.exe"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps21"
+      - "C:/Users/notus/bin/clang-scan-deps21.com"
+      - "C:/Users/notus/bin/clang-scan-deps21.exe"
+      - "C:/Users/notus/bin/clang-scan-deps21"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/mingw64/bin/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/local/bin/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/bin/clang-scan-deps21"
+      - "C:/msys64/usr/bin/clang-scan-deps21.com"
+      - "C:/msys64/usr/bin/clang-scan-deps21.exe"
+      - "C:/msys64/usr/bin/clang-scan-deps21"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps21.com"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps21.exe"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/clang-scan-deps21"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps21.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps21.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/clang-scan-deps21"
+      - "C:/msys64/ucrt64/bin/clang-scan-deps.com"
+    found: "C:/msys64/ucrt64/bin/clang-scan-deps.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake:169 (enable_language)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Clang.cmake:279 (__windows_compiler_gnu)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Clang.cmake:291 (__windows_compiler_clang_base)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Clang-C.cmake:2 (__windows_compiler_clang)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Users/notus/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/$PATH/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/mingw64/sbin/"
+      - "C:/Program Files/Git/mingw64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/sbin/"
+      - "C:/msys64/ucrt64/"
+      - "C:/Program Files (x86)/DT_CPP/bin/"
+      - "C:/Program Files (x86)/DT_CPP/sbin/"
+      - "C:/Program Files (x86)/DT_CPP/"
+    searched_directories:
+      - "C:/Users/notus/bin/windres.com"
+      - "C:/Users/notus/bin/windres.exe"
+      - "C:/Users/notus/bin/windres"
+      - "C:/Program Files/Git/mingw64/bin/windres.com"
+      - "C:/Program Files/Git/mingw64/bin/windres.exe"
+      - "C:/Program Files/Git/mingw64/bin/windres"
+      - "C:/Program Files/Git/usr/local/bin/windres.com"
+      - "C:/Program Files/Git/usr/local/bin/windres.exe"
+      - "C:/Program Files/Git/usr/local/bin/windres"
+      - "C:/Program Files/Git/usr/bin/windres.com"
+      - "C:/Program Files/Git/usr/bin/windres.exe"
+      - "C:/Program Files/Git/usr/bin/windres"
+      - "C:/msys64/ucrt64/bin/windres.com"
+    found: "C:/msys64/ucrt64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\notus\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\notus\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "$PATH"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/DT_CPP"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files/Git/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/msys64/ucrt64"
+        - "C:/Program Files (x86)/DT_CPP"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh"
+      binary: "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/ucrt64/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_c4542
+        [1/2] C:\\msys64\\ucrt64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_c4542.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/ucrt64/bin
+         (in-process)
+         "C:/msys64/ucrt64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh -v -fcoverage-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh -resource-dir C:/msys64/ucrt64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_c4542.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/lib/clang/21/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -x c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/lib/clang/21/include
+         C:/msys64/ucrt64/include
+        End of search list.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\clang.exe  -v -Wl,-v CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -o cmTC_c4542.exe -Wl,--out-implib,libcmTC_c4542.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/ucrt64/bin
+         "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_c4542.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c4542.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45.1
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/lib/clang/21/include]
+          add: [C:/msys64/ucrt64/include]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/lib/clang/21/include] ==> [C:/msys64/ucrt64/lib/clang/21/include]
+        collapse include dir [C:/msys64/ucrt64/include] ==> [C:/msys64/ucrt64/include]
+        implicit include dirs: [C:/msys64/ucrt64/lib/clang/21/include;C:/msys64/ucrt64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_c4542]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_c4542.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/ucrt64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/ucrt64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh -v -fcoverage-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-m6o8oh -resource-dir C:/msys64/ucrt64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_c4542.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/lib/clang/21/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -x c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/lib/clang/21/include]
+        ignore line: [ C:/msys64/ucrt64/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\clang.exe  -v -Wl -v CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj -o cmTC_c4542.exe -Wl --out-implib libcmTC_c4542.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/ucrt64/bin]
+        link line: [ "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_c4542.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c4542.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/ld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_c4542.exe] ==> ignore
+          arg [C:/msys64/ucrt64/lib/crt2.o] ==> obj [C:/msys64/ucrt64/lib/crt2.o]
+          arg [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/msys64/ucrt64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/ucrt64/lib] ==> dir [C:/msys64/ucrt64/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c4542.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_c4542.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'C': C:/msys64/ucrt64/bin/ld
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/msys64/ucrt64/x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/ucrt64/lib] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib;C:/msys64/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "C:/msys64/ucrt64/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6"
+      binary: "C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/ucrt64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_88d0d
+        [1/2] C:\\msys64\\ucrt64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_88d0d.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/ucrt64/bin
+         (in-process)
+         "C:/msys64/ucrt64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6 -v -fcoverage-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6 -resource-dir C:/msys64/ucrt64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_88d0d.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0 -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/backward -internal-isystem C:/msys64/ucrt64/include/c++/15.2.0 -internal-isystem C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/include/c++/15.2.0/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++ -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward -internal-isystem C:/msys64/ucrt64/lib/clang/21/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/backward"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/backward"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/include/c++/15.2.0
+         C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32
+         C:/msys64/ucrt64/include/c++/15.2.0/backward
+         C:/msys64/ucrt64/lib/clang/21/include
+         C:/msys64/ucrt64/include
+        End of search list.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\clang++.exe  -v -Wl,-v CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_88d0d.exe -Wl,--out-implib,libcmTC_88d0d.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 21.1.8
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/ucrt64/bin
+         "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_88d0d.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_88d0d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45.1
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/include/c++/15.2.0]
+          add: [C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32]
+          add: [C:/msys64/ucrt64/include/c++/15.2.0/backward]
+          add: [C:/msys64/ucrt64/lib/clang/21/include]
+          add: [C:/msys64/ucrt64/include]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/include/c++/15.2.0] ==> [C:/msys64/ucrt64/include/c++/15.2.0]
+        collapse include dir [C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32] ==> [C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32]
+        collapse include dir [C:/msys64/ucrt64/include/c++/15.2.0/backward] ==> [C:/msys64/ucrt64/include/c++/15.2.0/backward]
+        collapse include dir [C:/msys64/ucrt64/lib/clang/21/include] ==> [C:/msys64/ucrt64/lib/clang/21/include]
+        collapse include dir [C:/msys64/ucrt64/include] ==> [C:/msys64/ucrt64/include]
+        implicit include dirs: [C:/msys64/ucrt64/include/c++/15.2.0;C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32;C:/msys64/ucrt64/include/c++/15.2.0/backward;C:/msys64/ucrt64/lib/clang/21/include;C:/msys64/ucrt64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_88d0d]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\clang++.exe   -v -MD -MT CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_88d0d.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/ucrt64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/ucrt64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6 -v -fcoverage-compilation-dir=C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/CMakeScratch/TryCompile-69b6n6 -resource-dir C:/msys64/ucrt64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_88d0d.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0 -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/backward -internal-isystem C:/msys64/ucrt64/include/c++/15.2.0 -internal-isystem C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/include/c++/15.2.0/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++ -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32 -internal-isystem C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward -internal-isystem C:/msys64/ucrt64/lib/clang/21/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/ucrt64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/backward"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include/c++/15.2.0/backward"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2.0/backward"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15.2/backward"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/x86_64-w64-mingw32"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/g++-v15/backward"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/include/c++/15.2.0]
+        ignore line: [ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32]
+        ignore line: [ C:/msys64/ucrt64/include/c++/15.2.0/backward]
+        ignore line: [ C:/msys64/ucrt64/lib/clang/21/include]
+        ignore line: [ C:/msys64/ucrt64/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\clang++.exe  -v -Wl -v CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_88d0d.exe -Wl --out-implib libcmTC_88d0d.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/ucrt64/bin]
+        link line: [ "C:/msys64/ucrt64/bin/ld" -m i386pep -Bdynamic -o cmTC_88d0d.exe C:/msys64/ucrt64/lib/crt2.o C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/ucrt64/lib -v CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_88d0d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/ld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_88d0d.exe] ==> ignore
+          arg [C:/msys64/ucrt64/lib/crt2.o] ==> obj [C:/msys64/ucrt64/lib/crt2.o]
+          arg [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/msys64/ucrt64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/ucrt64/lib] ==> dir [C:/msys64/ucrt64/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_88d0d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_88d0d.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'CXX': C:/msys64/ucrt64/bin/ld
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/msys64/ucrt64/x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/ucrt64/lib] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/x86_64-w64-mingw32/mingw/lib;C:/msys64/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/msys64/ucrt64/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45.1
+...

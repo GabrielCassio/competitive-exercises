@@ -1,0 +1,3 @@
+C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/chap4.dir
+C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/edit_cache.dir
+C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/CMakeFiles/rebuild_cache.dir
