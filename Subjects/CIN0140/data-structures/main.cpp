@@ -1,6 +1,6 @@
-#include "vector.hpp"
-#include "singly_linked_list.hpp"
-#include "queue.hpp"
+#include "vector/vector.hpp"
+#include "vector/singly_linked_list.hpp"
+#include "queue/queue.hpp"
 #include <string>
 
 int main() {
