@@ -1,0 +1,21 @@
+# ninja log v7
+11	77	8011640310526674	CMakeFiles/chap4.dir/chap4/list.cpp.obj	82453758fda6c766
+4	81	8011640310425121	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+20	104	8011640310653739	CMakeFiles/chap4.dir/chap4/alist.cpp.obj	5c347badca54f947
+6	337	8011646032325334	build.ninja	42e7c08629df17ca
+6	337	8011646032325334	C:/Users/notus/OneDrive/Desktop/Estudo-cpp/algorithms/build/cmake_install.cmake	42e7c08629df17ca
+21	193	8011646033005771	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+5	84	8011647063607266	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+8	74	8011647161302278	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+6	85	8011648510285364	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+86	192	8011648511076359	chap4.exe	d794e2269885ea78
+7	897	8011662030794696	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+900	1171	8011662039730592	chap4.exe	d794e2269885ea78
+6	441	8011662468572380	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+443	647	8011662472928356	chap4.exe	d794e2269885ea78
+8	334	8011664438881390	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+334	556	8011664442144513	chap4.exe	d794e2269885ea78
+6	444	8011667687030473	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+446	654	8011667691455471	chap4.exe	d794e2269885ea78
+7	408	8011671432235636	CMakeFiles/chap4.dir/chap4/main.cpp.obj	e50cc0b36d0d8f3f
+410	611	8011671436280959	chap4.exe	d794e2269885ea78
