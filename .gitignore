@@ -1,9 +1,10 @@
-# VScode IDE
+ # VScode IDE
 .vscode
 
 # Docker configuration
 .devcontainer
 
 # Executables CPP
-.exe
-.out
+*.exe
+*.out
+!*.*
