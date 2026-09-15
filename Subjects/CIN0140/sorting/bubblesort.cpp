@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "../../../Materials/utils/PrintElements.hpp"
 
 #define endl '\n'
 using namespace std;
@@ -38,7 +39,13 @@ int main() {
     cin.tie(0);
 
     vector<int> list = {8, 2, 1, 5, 6};
-    
+
+    bubblesort(list, list.size());
+
+    for (auto &a: list) {
+        cout << a << " ";
+    }
+    cout << endl;
 
 
     return 0;
