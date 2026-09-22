@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_C_COMPILER clang)
+set(CMAKE_CXX_COMPILER clang++)
+
+set(project_name cp_exercises_project)
+project(${project_name} VERSION 1.0.0)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Packages =====
+find_package(PkgConfig)
+pkg_search_module(GTEST REQUIRED gtest_main)
+
+add_executable(testapp)
+target_sources(testapp PRIVATE samples/sample3_unittest.cc)
+target_link_libraries(testapp PRIVATE ${GTEST_LDFLAGS})
+target_compile_options(testapp PRIVATE ${GTEST_CFLAGS})
+
+enable_testing()
+add_test(first_and_only_test testapp)
