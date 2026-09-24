@@ -8,7 +8,7 @@ class PrintElements {
     private:
     public:
         static void print(S&) const {
-            std::cout << 
+            std::cout << s::iterator()
 
         }
 };

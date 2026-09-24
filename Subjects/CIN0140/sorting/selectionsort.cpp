@@ -23,6 +23,14 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
+    vector<int> list = {8, 1, 4, 7, 2};
+
+    selectionsort(list, list.size());
+
+    for (auto &a: list) {
+        cout << a << " ";
+    }
+    cout << endl;
 
     return 0;
 }

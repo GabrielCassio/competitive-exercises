@@ -1,0 +1,60 @@
+cmake_minimum_required(VERSION 3.16)
+
+set(project_name cp_exercises_project)
+project(${project_name} VERSION 1.0.0)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Packages =====
+
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG v1.15.2
+)
+
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+enable_testing()
+include(GoogleTest)
+
+file(GLOB   EXERCISE_DIRS RELATIVE ${CMAKE_SOURCE_DIR}/Interviews ${CMAKE_SOURCE_DIR}/Interviews/*)
+
+foreach(exercise ${EXERCISE_DIRS})
+  set(exercise_path ${CMAKE_SOURCE_DIR}/Interviews/${exercise})
+
+  set(test_files "")
+  set(code_files "")
+
+  if (IS_DIRECTORY ${exercise_path})
+    file(GLOB all_cpp_files ${exercise_path}/*.cpp)
+
+    foreach(file ${all_cpp_files})
+      get_filename_component(fname ${file} NAME)
+
+      if (fname MATCHES "test")
+        list(APPEND test_files ${file})
+      else()
+        list(APPEND code_files ${file})
+      endif()
+    endforeach()
+  endif()
+
+  list(LENGTH test_files len_test_files)
+  if (len_test_files GREATER 0)
+          add_executable(${exercise}_tests
+              ${test_files}
+              ${code_files}
+          )
+          target_include_directories(${exercise}_tests PRIVATE ${exercise_path})
+          target_link_libraries(${exercise}_tests GTest::gtest_main)
+          gtest_discover_tests(${exercise}_tests)
+  endif()
+
+endforeach()
+
+
+
+
