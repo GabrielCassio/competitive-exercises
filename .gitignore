@@ -1,5 +1,4 @@
-# VScode IDE
-.vscode
+# VS Code workspace configuration is tracked for a reproducible setup.
 
 # Docker configuration
 .devcontainer
