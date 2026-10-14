@@ -1,13 +1,14 @@
 # competitive-exercises
 
-## Configuração base do C++ no Windows e Arch Linux
+## Configuração base do C++ no Windows, Arch Linux e Docker
 
-Os arquivos de configuração do VS Code funcionam nos dois sistemas usando
-`g++`, `gdb`, `cmake` e `ctest` encontrados no `PATH`. Consulte
-[`.vscode/README.md`](.vscode/README.md) para as instruções de instalação:
+O fluxo recomendado é executar o toolchain dentro do Docker. Consulte
+[`.vscode/README.md`](.vscode/README.md) para as instruções completas de
+Docker, Dev Containers e execução direta no host:
 
 - Arch Linux: instalação com `pacman`.
 - Windows: instalação do MSYS2 UCRT64 e configuração do `PATH`.
+- Docker: imagens baseadas em Debian/GCC com C++23, CMake e GDB.
 
 Abra a raiz do repositório no VS Code:
 
@@ -21,7 +22,7 @@ O diretório `.vscode` fornece:
 - `Debug arquivo C++ ativo`: compila e inicia o arquivo aberto no GDB.
 - `CMake: configurar`, `CMake: compilar` e `CMake: testar`: configuram e executam o projeto de testes.
 
-Para o fluxo com CMake pela linha de comando:
+Para o fluxo com CMake pela linha de comando dentro do container:
 
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug

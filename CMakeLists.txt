@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.16)
 set(project_name cp_exercises_project)
 project(${project_name} VERSION 1.0.0)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Packages =====
@@ -54,7 +54,5 @@ foreach(exercise ${EXERCISE_DIRS})
   endif()
 
 endforeach()
-
-
 
 
