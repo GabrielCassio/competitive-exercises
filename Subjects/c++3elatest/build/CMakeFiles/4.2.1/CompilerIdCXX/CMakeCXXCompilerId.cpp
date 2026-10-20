@@ -28,15 +28,15 @@
 # if __INTEL_COMPILER < 2021 || __INTEL_COMPILER == 202110 || __INTEL_COMPILER == 202111
 #  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
 #  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
-#  if defined(__INTEL_COMPILER_UPDATE)
-#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER_UPDATE)
+#  if defined(__INTEL_COMPILER_updateATE)
+#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER_updateATE)
 #  else
 #   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
 #  endif
 # else
 #  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER)
-#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER_UPDATE)
-   /* The third version component from --version is an update index,
+#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER_updateATE)
+   /* The third version component from --version is an updateate index,
       but no macro is provided for it.  */
 #  define COMPILER_VERSION_PATCH DEC(0)
 # endif
