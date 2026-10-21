@@ -26,11 +26,11 @@ int main() {
         cin >> list[i];
     }
     
-    int updt_val = 1;
+    int update_val = 1;
     while (q--) {
         int l, r; cin >> l >> r;
-        diff[l] += updt_val;
-        diff[r + 1] -= updt_val;
+        diff[l] += update_val;
+        diff[r + 1] -= update_val;
     }
     
     vll prefix_sum(n+1, 0);
